@@ -40,7 +40,7 @@ namespace Task_1
             {
                 mlenth = rand.Next(3, 6);
 
-                Thread.Sleep(0);
+                
 
                 for (var i = 0; i < thend; i++)
                 {
@@ -78,7 +78,7 @@ namespace Task_1
                         ChangeColor(2, ConsoleColor.Green);
                         ChangeColor(1, ConsoleColor.White);
 
-                        Thread.Sleep(0);
+                        
                     }
                 }
             }
